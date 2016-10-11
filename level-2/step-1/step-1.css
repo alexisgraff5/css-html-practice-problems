@@ -7,6 +7,7 @@
     position: relative;
     /*You will need to add a position property to get this to look like he design */
 
+
 }
 
 
@@ -24,6 +25,10 @@
     width: 100px;
     height: 40px;
     background: #536A63;
+    display:inline-block;
+    position:absolute;
+    left: 10px;
+    top: 10px;
 }
 
 .logo {
@@ -31,6 +36,7 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
+    display: inline-block;
 
 
 }
@@ -39,6 +45,10 @@
     width: 100px;
     height: 40px;
     background: #536A63;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 
 }
 
@@ -49,6 +59,8 @@
     height: 60px;
     left: 22%;
     background: #536A63;
+    position: absolute;
+    bottom: -30px;
 
 
 }
